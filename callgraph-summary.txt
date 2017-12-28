@@ -1,0 +1,138 @@
+CLASS
+id11
+test
+Hello.A
+CLASS
+id12
+test
+Hello.CallSiteClass
+CLASS
+id13
+test
+Hello
+CLASS
+id14
+ca.uwaterloo.scalacg
+Library
+CLASS
+id15
+test
+Hello.C
+CLASS
+id16
+test
+Hello.B
+METHOD
+id1
+receiver
+
+id12
+METHOD
+id2
+main
+args: Array[String]
+id13
+METHOD
+id3
+blob
+
+id14
+METHOD
+id4
+<init>
+
+id15
+METHOD
+id5
+foo
+
+id16
+METHOD
+id6
+<init>
+
+id16
+METHOD
+id7
+<init>
+
+id11
+METHOD
+id8
+<init>
+
+id13
+METHOD
+id9
+<init>
+receiver: T
+id12
+METHOD
+id10
+callsite
+
+id12
+ENTRYPOINT
+id2
+ENTRYPOINT
+id8
+CALLEDGE
+id7
+id3
+0.0
+CallMethodTest.scala : 5
+CALLEDGE
+id9
+id3
+0.0
+CallMethodTest.scala : 21
+CALLEDGE
+id2
+id4
+0.0
+CallMethodTest.scala : 30
+CALLEDGE
+id6
+id7
+0.0
+CallMethodTest.scala : 9
+CALLEDGE
+id2
+id10
+0.0
+CallMethodTest.scala : 32
+CALLEDGE
+id2
+id9
+0.0
+CallMethodTest.scala : 31
+CALLEDGE
+id4
+id3
+0.0
+CallMethodTest.scala : 13
+CALLEDGE
+id10
+id5
+0.0
+CallMethodTest.scala : 23
+CALLEDGE
+id2
+id6
+0.0
+CallMethodTest.scala : 29
+CALLEDGE
+id10
+id1
+0.0
+CallMethodTest.scala : 23
+CALLEDGE
+id2
+id7
+0.0
+CallMethodTest.scala : 28
+CALLEDGE
+id8
+id3
+0.0
+CallMethodTest.scala : 3
