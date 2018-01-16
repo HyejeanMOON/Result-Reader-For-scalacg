@@ -8,7 +8,7 @@ But analysis result have some inconvenience, because result is not very readable
 So, you could easily change to more readable format by this litte program.
 
 scalacg website: https://plg.uwaterloo.ca/~karim/projects/scalacg/
-(once again express my gratitude for Mr.Karim, scalacg is a great tool.)
+<br>(once again express my gratitude for Mr.Karim, scalacg is a great tool.)
 
 Please import this project to your compuer by IntelliJ IDEA.
 Then, use SBT command as below to run it.
