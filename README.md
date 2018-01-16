@@ -4,7 +4,7 @@ This little program is result reader for scala call graph tool is called "scalcg
 
 scalacg is a tool that analysis call and called relationship. 
 It is a very great tool.
-But analysis result have some inconvenience, because result is not very readable format.
+But analysis result have some inconveniences, because result is not very readable format.
 So, you could easily change to more readable format by this litte program.
 
 scalacg website: https://plg.uwaterloo.ca/~karim/projects/scalacg/
