@@ -10,11 +10,12 @@ object reader {
   var IDtoMethod= Map[String,String]().withDefaultValue("")
   var temp:Array[String] = Array()
   var CallerToCallee: Array[(String,String)] = Array()
+  var EntryPoint:Array[String] = Array()
 
 
   def Scanner= {
 
-    val fileName = "callgraph-summary.txt"
+    val fileName = "callgraph.txt"
 
 
     for (line <- Source.fromFile(fileName).getLines()) {
@@ -45,6 +46,9 @@ object reader {
           val callee = IDtoMethod.get(temp(t+2)).mkString
 
           CallerToCallee = CallerToCallee :+ (caller,callee)
+
+        case e if e.contains("ENTRYPOINT") =>
+          EntryPoint = EntryPoint :+ IDtoMethod.get(temp(t+1)).mkString
 
         case _ =>
 

@@ -1,6 +1,7 @@
 
 import reader._
 
+
 object mainClass {
 
 
@@ -49,6 +50,13 @@ object mainClass {
     }
 
     println("")
+    println("-------------------")
+    println("")
+    println("Creating File...")
+
+    val cf = new CreateFile
+    cf.createFile
+
 
   }
 

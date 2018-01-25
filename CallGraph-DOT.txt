@@ -1,0 +1,14 @@
+digraph G{
+"test.Hello.C.<init>" -> "java.lang.Object.<init>" ;
+"test.Hello.main" -> "test.Hello.C.<init>" ;
+"test.Hello.B.<init>" -> "test.Hello.A.<init>" ;
+"test.Hello.main" -> "test.Hello.CallSiteClass.callsite" ;
+"test.Hello.main" -> "test.Hello.CallSiteClass.<init>" ;
+"test.Hello.CallSiteClass.callsite" -> "test.Hello.B.foo" ;
+"test.Hello.A.<init>" -> "java.lang.Object.<init>" ;
+"test.Hello.CallSiteClass.<init>" -> "java.lang.Object.<init>" ;
+"test.Hello.main" -> "test.Hello.B.<init>" ;
+"test.Hello.CallSiteClass.callsite" -> "test.Hello.CallSiteClass.receiver" ;
+"test.Hello.main" -> "test.Hello.A.<init>" ;
+"test.Hello.<init>" -> "java.lang.Object.<init>" ;
+}
