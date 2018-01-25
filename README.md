@@ -16,12 +16,6 @@ Then, use SBT command as below to run it.
 sbt run
 ```
 
-Of course, use as below command to package project to runnable JAR file,
-then run it.
-```
-sbt package
-```
-
 Result Sample:
 ```
 -------------------
