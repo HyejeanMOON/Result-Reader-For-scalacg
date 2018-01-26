@@ -17,7 +17,7 @@ sbt run
 ```
 
 The tool could visualize call graph by Graphviz. Graphviz is open source graph visualization software. Graphviz programming language is DOT.<br>
-Graphviz: https://www.graphviz.org/
+Graphviz: https://www.graphviz.org/ <br>
 Please copy content of CallGraph-DOT.txt to Graphviz. You could get call graph picture.
 
 Result Sample:
