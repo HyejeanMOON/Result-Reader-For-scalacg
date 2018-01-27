@@ -16,9 +16,9 @@ Then, use SBT command as below to run it.
 sbt run
 ```
 
-The tool could visualize call graph by Graphviz. Graphviz is open source graph visualization software. Graphviz programming language is DOT.<br>
+The tool can visualize call graph by Graphviz. Graphviz is open source graph visualization software. Graphviz programming language is DOT.<br>
 Graphviz: https://www.graphviz.org/ <br>
-Please copy content of CallGraph-DOT.txt to Graphviz. You could get call graph picture.
+Please copy content of CallGraph-DOT.txt to Graphviz. You could get a call graph picture.
 
 Result Sample:
 ```
